@@ -82,7 +82,7 @@ function sendNotification($ip)
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://api.callmebot.com/whatsapp.php?phone=***REMOVED***&text=' . $message . '&apikey=***REMOVED***',
+        CURLOPT_URL => 'https://api.callmebot.com/whatsapp.php?phone=xxx&text=' . $message . '&apikey=xxx',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
