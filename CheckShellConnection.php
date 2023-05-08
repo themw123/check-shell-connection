@@ -58,22 +58,6 @@ for ($i = 0; $i < count($mongodb); $i++) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function sendNotification($ip)
 {
 
