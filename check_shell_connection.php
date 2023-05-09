@@ -1,5 +1,4 @@
 <?php
-include("config.php");
 //listener ips holen
 $outputNetstat = shell_exec('netstat -an|grep ESTABLISHED|grep -P "8080|8081"');
 
